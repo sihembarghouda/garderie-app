@@ -1,0 +1,117 @@
+:root {
+  --baby-pink: #fff1f2;
+  --baby-yellow: #fff8dc;
+  --baby-blue: #eaf5ff;
+  --dark-text: #334155;
+  --main-pink: #f28ba8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #ffffff;
+  color: var(--dark-text);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-brand {
+  color: #e56f91 !important;
+  font-weight: 800;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #fff1f2, #fff8dc);
+  padding: 80px 0;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 3.6rem);
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.hero-image {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0 15px 35px rgba(51, 65, 85, 0.12);
+}
+
+.btn-garderie {
+  background-color: var(--main-pink);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 26px;
+  font-weight: 700;
+}
+
+.btn-garderie:hover {
+  background-color: #df6d8e;
+  color: white;
+}
+
+.services-section {
+  padding: 75px 0;
+}
+
+.service-card {
+  height: 100%;
+  border: none;
+  border-radius: 22px;
+  padding: 28px 20px;
+  box-shadow: 0 8px 25px rgba(51, 65, 85, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 3rem;
+}
+
+.service-pink {
+  background-color: #fff1f2;
+}
+
+.service-blue {
+  background-color: #eaf5ff;
+}
+
+.service-yellow {
+  background-color: #fff8dc;
+}
+
+.section-title {
+  font-weight: 800;
+  font-size: 2.3rem;
+}
+
+footer {
+  background-color: #fff1f2;
+  padding: 24px 0;
+}
+
+@media (max-width: 767px) {
+  .hero-section {
+    padding: 45px 0;
+  }
+
+  .hero-image {
+    height: 260px;
+  }
+
+  .services-section {
+    padding: 50px 0;
+  }
+}
